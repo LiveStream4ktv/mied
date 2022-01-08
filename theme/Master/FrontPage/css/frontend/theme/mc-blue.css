@@ -1,0 +1,2858 @@
+.lt-ie8 .list-inline li {
+    float: left
+}
+
+.lt-ie8 .row .col-md-9 {
+    width: 70%
+}
+
+.lt-ie8 .row .col-md-8 {
+    width: 58%
+}
+
+.lt-ie8 .row .col-md-7 {
+    width: 52%
+}
+
+.lt-ie8 .row .col-md-6 {
+    width: 47%
+}
+
+.lt-ie8 .row .col-md-5 {
+    width: 40%
+}
+
+.lt-ie8 .row .col-md-4 {
+    width: 29%
+}
+
+.lt-ie8 .row .col-md-offset-1 {
+    margin-left: 0
+}
+
+.lt-ie8 .row .col-md-3 {
+    width: 20%
+}
+
+.formError {
+    z-index: 990
+}
+
+.formError .formErrorContent {
+    z-index: 991
+}
+
+.formError .formErrorArrow {
+    z-index: 996
+}
+
+.ui-dialog .formError {
+    z-index: 5000
+}
+
+.ui-dialog .formError .formErrorContent {
+    z-index: 5001
+}
+
+.ui-dialog .formError .formErrorArrow {
+    z-index: 5006
+}
+
+.inputContainer {
+    position: relative;
+    float: left
+}
+
+.formError {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    display: block;
+    cursor: pointer;
+    text-align: left
+}
+
+.formError.inline {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block
+}
+
+.ajaxSubmit {
+    padding: 20px;
+    background: #55ea55;
+    border: 1px solid #999;
+    display: none
+}
+
+.formError .formErrorContent {
+    width: 100%;
+    background: #ee0101;
+    position: relative;
+    color: #fff;
+    min-width: 120px;
+    font-size: 11px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 6px #000;
+    -moz-box-shadow: 0 0 6px #000;
+    -webkit-box-shadow: 0 0 6px #000;
+    -o-box-shadow: 0 0 6px #000;
+    padding: 4px 10px 4px 10px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.formError.inline .formErrorContent {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    border: none;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0
+}
+
+.greenPopup .formErrorContent {
+    background: #33be40
+}
+
+.blackPopup .formErrorContent {
+    background: #393939;
+    color: #FFF
+}
+
+.formError .formErrorArrow {
+    width: 15px;
+    margin: -2px 0 0 13px;
+    position: relative
+}
+
+body[dir='rtl'] .formError .formErrorArrow,
+body.rtl .formError .formErrorArrow {
+    margin: -2px 13px 0 0
+}
+
+.formError .formErrorArrowBottom {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    margin: 0 0 0 12px;
+    top: 2px
+}
+
+.formError .formErrorArrow div {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    box-shadow: 0 2px 3px #444;
+    -moz-box-shadow: 0 2px 3px #444;
+    -webkit-box-shadow: 0 2px 3px #444;
+    -o-box-shadow: 0 2px 3px #444;
+    height: 1px;
+    background: #ee0101;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    display: block
+}
+
+.formError .formErrorArrowBottom div {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none
+}
+
+.greenPopup .formErrorArrow div {
+    background: #33be40
+}
+
+.blackPopup .formErrorArrow div {
+    background: #393939;
+    color: #FFF
+}
+
+.formError .formErrorArrow .line10 {
+    width: 15px;
+    border: none
+}
+
+.formError .formErrorArrow .line9 {
+    width: 13px;
+    border: none
+}
+
+.formError .formErrorArrow .line8 {
+    width: 11px
+}
+
+.formError .formErrorArrow .line7 {
+    width: 9px
+}
+
+.formError .formErrorArrow .line6 {
+    width: 7px
+}
+
+.formError .formErrorArrow .line5 {
+    width: 5px
+}
+
+.formError .formErrorArrow .line4 {
+    width: 3px
+}
+
+.formError .formErrorArrow .line3 {
+    width: 1px;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-bottom: 0 solid #ddd
+}
+
+.formError .formErrorArrow .line2 {
+    width: 3px;
+    border: none;
+    background: #ddd
+}
+
+.formError .formErrorArrow .line1 {
+    width: 1px;
+    border: none;
+    background: #ddd
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, Helvetica, Arial, sans-serif
+}
+
+html body {
+    background-color: #04071d
+}
+
+html body .five9-chat-button {
+    background: linear-gradient(#00c1f3, #00c1f3)
+}
+
+html body #flash {
+    width: 100%;
+    height: 60px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 60px;
+    position: absolute;
+    display: block;
+    z-index: 30
+}
+
+@media only screen and (max-width:768px) {
+    html body #flash {
+        margin-top: 100px
+    }
+}
+
+html body #support .btn-questions {
+    color: #fff;
+    background-color: #00c1f3;
+    border-color: #00c1f3
+}
+
+html body header {
+    background-color: unset;
+    height: 55px;
+    position: fixed;
+    top: 0
+}
+
+@media only screen and (max-width:768px) {
+    html body header {
+        height: 100px
+    }
+}
+
+html body header #header-wrapper {
+    max-width: 100%;
+    transition: .25s;
+    grid-template-columns: 33% 34% 33%
+}
+
+@media only screen and (max-width:768px) {
+    html body header #header-wrapper {
+        grid-template-columns: unset
+    }
+}
+
+html body header #header-wrapper.scrolled {
+    background-color: #04071d
+}
+
+html body header #header-wrapper.scrolled #contact span {
+    color: #00c1f3
+}
+
+html body header #header-wrapper.scrolled #contact span a {
+    color: #00c1f3
+}
+
+html body header #header-wrapper.scrolled #loginLink a {
+    color: #00c1f3
+}
+
+html body header #header-wrapper #contact {
+    margin: 5px
+}
+
+html body header #header-wrapper #contact span {
+    display: block;
+    font-size: 12px
+}
+
+@media only screen and (max-width:350px) {
+    html body header #header-wrapper #contact span {
+        font-size: 11px
+    }
+}
+
+html body header #header-wrapper #contact span.divider {
+    display: none
+}
+
+html body header #header-wrapper #logo {
+    height: 100%;
+    max-height: 55px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 10px
+}
+
+@media only screen and (max-width:768px) {
+    html body header #header-wrapper #logo {
+        text-align: left;
+        margin-left: 0;
+        max-height: 45px
+    }
+}
+
+html body header #header-wrapper #logo img {
+    max-height: 100%;
+    width: unset
+}
+
+html body header #header-wrapper #topmenu {
+    display: block;
+    pointer-events: none;
+    bottom: unset
+}
+
+html body header #header-wrapper #topmenu ul {
+    pointer-events: all
+}
+
+html body header #header-wrapper #topmenu ul #loginLink {
+    display: block
+}
+
+html body header #header-wrapper #topmenu ul #loginLink a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #00c1f3
+}
+
+html body header #header-wrapper #menumobile,
+html body header #header-wrapper .navbar-toggle {
+    display: none
+}
+
+html body main {
+    margin-top: 0;
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 540px 180px auto auto;
+    grid-template-rows: 540px 180px auto auto;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 100%
+}
+
+@media only screen and (max-width:768px) {
+    html body main {
+        -ms-grid-rows: 450px 90px auto auto;
+        grid-template-rows: 450px 90px auto auto
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body main {
+        -ms-grid-rows: 540px 50px auto auto auto;
+        grid-template-rows: 540px 50px auto auto auto
+    }
+}
+
+html body main #splash {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 1;
+    width: 100%;
+    max-width: 1100px;
+    height: 740px;
+    display: flex;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    visibility: visible;
+    transition: opacity .25s linear;
+    margin: auto
+}
+
+@media only screen and (max-width:768px) {
+    html body main #splash {
+        height: 540px
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body main #splash {
+        height: auto;
+        min-height: 850px;
+        grid-row-end: 4
+    }
+}
+
+html body main #splash.sldItem01 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-a-star-is-born-01.jpg")
+}
+
+html body main #splash.sldItem02 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-at-war-with-the-army-02.jpg")
+}
+
+html body main #splash.sldItem03 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-call-of-the-wild-01.jpg")
+}
+
+html body main #splash.sldItem04 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-evil-dead-2-03.jpg")
+}
+
+html body main #splash.sldItem05 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-fetching-cody-02.jpg")
+}
+
+html body main #splash.sldItem06 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-fists-of-fury-02.jpg")
+}
+
+html body main #splash.sldItem07 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-jack-frost-02.jpg")
+}
+
+html body main #splash.sldItem08 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-little-spirit-02.jpg")
+}
+
+html body main #splash.sldItem09 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-the-evil-dead-02.jpg")
+}
+
+html body main #splash.sldItem10 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-bejeweled-2.jpg")
+}
+
+html body main #splash.sldItem11 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-commandos-3-01.jpg")
+}
+
+html body main #splash.sldItem12 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-governor-of-poker.jpg")
+}
+
+html body main #splash.sldItem13 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-hitman-blood-money-01.jpg")
+}
+
+html body main #splash.sldItem14 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-neverwinter-nights01.jpg")
+}
+
+html body main #splash.sldItem15 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-tomb-raider-anniversary-01.jpg")
+}
+
+html body main #splash.sldItem16 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-plants-vs-zombies.jpg")
+}
+
+html body main #splash.sldItem17 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-syberia-2-01.jpg")
+}
+
+html body main #splash.sldItem18 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music-generic-image.jpg")
+}
+
+html body main #splash.sldItem19 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-generic-image.jpg")
+}
+
+html body main #splash.sldItem20 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_almost_september.jpg")
+}
+
+html body main #splash.sldItem21 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_arrows_and_bullets.jpg")
+}
+
+html body main #splash.sldItem22 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_jessica_rae.jpg")
+}
+
+html body main #splash.sldItem23 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_liquid_stranger.jpg")
+}
+
+html body main #splash.sldItem24 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_metropolis_america.jpg")
+}
+
+html body main #splash.sldItem25 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_okay_hello.jpg")
+}
+
+html body main #splash.sldItem26 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_quiet_company.jpg")
+}
+
+html body main #splash.sldItem27 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_slang.jpg")
+}
+
+html body main #splash.sldItem28 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-bitcoin-works-under-the-hood.jpg")
+}
+
+html body main #splash.sldItem29 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-dynamic-six-pack-abs.jpg")
+}
+
+html body main #splash.sldItem30 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-eat-yourself-thin.jpg")
+}
+
+html body main #splash.sldItem31 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-joint-pain-relief.jpg")
+}
+
+html body main #splash.sldItem32 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-lessons-you-can-learn-from-fitness-classes.jpg")
+}
+
+html body main #splash.sldItem33 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-lower-your-cholesterol-in-33-days.jpg")
+}
+
+html body main #splash.sldItem34 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-Pro_Social_Media_Marketing_Completed.jpg")
+}
+
+html body main #splash.sldItem35 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-Skin-Care-For-Today-And-Beyond.jpg")
+}
+
+html body main #splash.sldItem36 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-Social-Marketing-Advantage.jpg")
+}
+
+html body main #splash.sldItem37 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-the-new-health-and-wellness-shift.jpg")
+}
+
+html body main #splash.sldItem38 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-ultimate-internet-marketing-starter-guide.jpg")
+}
+
+html body main #splash.sldItem39 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-01.jpg")
+}
+
+html body main #splash.sldItem40 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-02.jpg")
+}
+
+html body main #splash.sldItem41 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-03.jpg")
+}
+
+html body main #splash.sldItem42 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-04.jpg")
+}
+
+html body main #splash.sldItem43 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-05.jpg")
+}
+
+html body main #splash.sldItem44 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-06.jpg")
+}
+
+html body main #splash.sldItem45 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-07.jpg")
+}
+
+html body main #splash.sldItem46 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-08.jpg")
+}
+
+html body main #splash.sldItem47 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-09.jpg")
+}
+
+html body main #splash.sldItem48 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-10.jpg")
+}
+
+html body main #splash.sldItem49 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-11.jpg")
+}
+
+html body main #splash.sldItem50 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-12.jpg")
+}
+
+@media only screen and (max-width:500px) {
+    html body main #splash.sldItem01 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-a-star-is-born-mobile.jpg")
+    }
+    html body main #splash.sldItem02 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-at-war-with-the-army-mobile.jpg")
+    }
+    html body main #splash.sldItem03 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-call-of-the-wild-mobile.jpg")
+    }
+    html body main #splash.sldItem04 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-evil-dead-2-mobile.jpg")
+    }
+    html body main #splash.sldItem05 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-fetching-cody-mobile.jpg")
+    }
+    html body main #splash.sldItem06 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-fists-of-fury-mobile.jpg")
+    }
+    html body main #splash.sldItem07 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-jack-frost-mobile.jpg")
+    }
+    html body main #splash.sldItem08 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-little-spirit-mobile.jpg")
+    }
+    html body main #splash.sldItem09 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-the-evil-dead-mobile.jpg")
+    }
+    html body main #splash.sldItem10 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-bejeweled-2-mobile.jpg")
+    }
+    html body main #splash.sldItem11 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-commandos-3-mobile.jpg")
+    }
+    html body main #splash.sldItem12 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-governor-of-poker-mobile.jpg")
+    }
+    html body main #splash.sldItem13 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-hitman-blood-money-mobile.jpg")
+    }
+    html body main #splash.sldItem14 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-neverwinter-nights-mobile.jpg")
+    }
+    html body main #splash.sldItem15 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-tomb-raider-anniversary-mobile.jpg")
+    }
+    html body main #splash.sldItem16 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-plants-vs-zombies-mobile.jpg")
+    }
+    html body main #splash.sldItem17 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-syberia-2-mobile.jpg")
+    }
+    html body main #splash.sldItem18 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music-generic-image-mobile.jpg")
+    }
+    html body main #splash.sldItem19 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/books-generic-image-mobile.jpg")
+    }
+    html body main #splash.sldItem20 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_almost_september.jpg")
+    }
+    html body main #splash.sldItem21 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_arrows_and_bullets.jpg")
+    }
+    html body main #splash.sldItem22 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_jessica_rae.jpg")
+    }
+    html body main #splash.sldItem23 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_liquid_stranger.jpg")
+    }
+    html body main #splash.sldItem24 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_metropolis_america.jpg")
+    }
+    html body main #splash.sldItem25 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_okay_hello.jpg")
+    }
+    html body main #splash.sldItem26 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_quiet_company.jpg")
+    }
+    html body main #splash.sldItem27 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music_slang.jpg")
+    }
+    html body main #splash.sldItem28 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-bitcoin-works-under-the-hood.jpg")
+    }
+    html body main #splash.sldItem29 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-dynamic-six-pack-abs.jpg")
+    }
+    html body main #splash.sldItem30 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-eat-yourself-thin.jpg")
+    }
+    html body main #splash.sldItem31 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-joint-pain-relief.jpg")
+    }
+    html body main #splash.sldItem32 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-lessons-you-can-learn-from-fitness-classes.jpg")
+    }
+    html body main #splash.sldItem33 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-lower-your-cholesterol-in-33-days.jpg")
+    }
+    html body main #splash.sldItem34 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-Pro_Social_Media_Marketing_Completed.jpg")
+    }
+    html body main #splash.sldItem35 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-Skin-Care-For-Today-And-Beyond.jpg")
+    }
+    html body main #splash.sldItem36 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-Social-Marketing-Advantage.jpg")
+    }
+    html body main #splash.sldItem37 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-the-new-health-and-wellness-shift.jpg")
+    }
+    html body main #splash.sldItem38 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-ultimate-internet-marketing-starter-guide.jpg")
+    }
+    html body main #splash.sldItem39 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-01.jpg")
+    }
+    html body main #splash.sldItem40 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-02.jpg")
+    }
+    html body main #splash.sldItem41 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-03.jpg")
+    }
+    html body main #splash.sldItem42 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-04.jpg")
+    }
+    html body main #splash.sldItem43 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-05.jpg")
+    }
+    html body main #splash.sldItem44 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-06.jpg")
+    }
+    html body main #splash.sldItem45 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-07.jpg")
+    }
+    html body main #splash.sldItem46 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-08.jpg")
+    }
+    html body main #splash.sldItem47 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-09.jpg")
+    }
+    html body main #splash.sldItem48 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-10.jpg")
+    }
+    html body main #splash.sldItem49 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-11.jpg")
+    }
+    html body main #splash.sldItem50 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-12.jpg")
+    }
+}
+
+html body main #splash.sldItem01 .calltoaction h1 #moviesst,
+html body main #splash.sldItem02 .calltoaction h1 #moviesst,
+html body main #splash.sldItem03 .calltoaction h1 #moviesst,
+html body main #splash.sldItem04 .calltoaction h1 #moviesst,
+html body main #splash.sldItem05 .calltoaction h1 #moviesst,
+html body main #splash.sldItem06 .calltoaction h1 #moviesst,
+html body main #splash.sldItem07 .calltoaction h1 #moviesst,
+html body main #splash.sldItem08 .calltoaction h1 #moviesst,
+html body main #splash.sldItem09 .calltoaction h1 #moviesst {
+    display: block
+}
+
+html body main #splash.sldItem01 .calltoaction .movieBtn,
+html body main #splash.sldItem02 .calltoaction .movieBtn,
+html body main #splash.sldItem03 .calltoaction .movieBtn,
+html body main #splash.sldItem04 .calltoaction .movieBtn,
+html body main #splash.sldItem05 .calltoaction .movieBtn,
+html body main #splash.sldItem06 .calltoaction .movieBtn,
+html body main #splash.sldItem07 .calltoaction .movieBtn,
+html body main #splash.sldItem08 .calltoaction .movieBtn,
+html body main #splash.sldItem09 .calltoaction .movieBtn {
+    display: inline-block
+}
+
+html body main #splash.sldItem01 .calltoaction .moviescta,
+html body main #splash.sldItem02 .calltoaction .moviescta,
+html body main #splash.sldItem03 .calltoaction .moviescta,
+html body main #splash.sldItem04 .calltoaction .moviescta,
+html body main #splash.sldItem05 .calltoaction .moviescta,
+html body main #splash.sldItem06 .calltoaction .moviescta,
+html body main #splash.sldItem07 .calltoaction .moviescta,
+html body main #splash.sldItem08 .calltoaction .moviescta,
+html body main #splash.sldItem09 .calltoaction .moviescta {
+    display: block
+}
+
+html body main #splash.sldItem10 .calltoaction h1 #gamesst,
+html body main #splash.sldItem11 .calltoaction h1 #gamesst,
+html body main #splash.sldItem12 .calltoaction h1 #gamesst,
+html body main #splash.sldItem13 .calltoaction h1 #gamesst,
+html body main #splash.sldItem14 .calltoaction h1 #gamesst,
+html body main #splash.sldItem15 .calltoaction h1 #gamesst,
+html body main #splash.sldItem16 .calltoaction h1 #gamesst,
+html body main #splash.sldItem17 .calltoaction h1 #gamesst {
+    display: block
+}
+
+html body main #splash.sldItem10 .calltoaction .gameBtn,
+html body main #splash.sldItem11 .calltoaction .gameBtn,
+html body main #splash.sldItem12 .calltoaction .gameBtn,
+html body main #splash.sldItem13 .calltoaction .gameBtn,
+html body main #splash.sldItem14 .calltoaction .gameBtn,
+html body main #splash.sldItem15 .calltoaction .gameBtn,
+html body main #splash.sldItem16 .calltoaction .gameBtn,
+html body main #splash.sldItem17 .calltoaction .gameBtn {
+    display: inline-block
+}
+
+html body main #splash.sldItem10 .calltoaction .gamescta,
+html body main #splash.sldItem11 .calltoaction .gamescta,
+html body main #splash.sldItem12 .calltoaction .gamescta,
+html body main #splash.sldItem13 .calltoaction .gamescta,
+html body main #splash.sldItem14 .calltoaction .gamescta,
+html body main #splash.sldItem15 .calltoaction .gamescta,
+html body main #splash.sldItem16 .calltoaction .gamescta,
+html body main #splash.sldItem17 .calltoaction .gamescta {
+    display: block
+}
+
+html body main #splash.sldItem18 .calltoaction h1 #musicsst,
+html body main #splash.sldItem20 .calltoaction h1 #musicsst,
+html body main #splash.sldItem21 .calltoaction h1 #musicsst,
+html body main #splash.sldItem22 .calltoaction h1 #musicsst,
+html body main #splash.sldItem23 .calltoaction h1 #musicsst,
+html body main #splash.sldItem24 .calltoaction h1 #musicsst,
+html body main #splash.sldItem25 .calltoaction h1 #musicsst,
+html body main #splash.sldItem26 .calltoaction h1 #musicsst,
+html body main #splash.sldItem27 .calltoaction h1 #musicsst {
+    display: block
+}
+
+html body main #splash.sldItem18 .calltoaction .musicBtn,
+html body main #splash.sldItem20 .calltoaction .musicBtn,
+html body main #splash.sldItem21 .calltoaction .musicBtn,
+html body main #splash.sldItem22 .calltoaction .musicBtn,
+html body main #splash.sldItem23 .calltoaction .musicBtn,
+html body main #splash.sldItem24 .calltoaction .musicBtn,
+html body main #splash.sldItem25 .calltoaction .musicBtn,
+html body main #splash.sldItem26 .calltoaction .musicBtn,
+html body main #splash.sldItem27 .calltoaction .musicBtn {
+    display: inline-block
+}
+
+html body main #splash.sldItem18 .calltoaction .musicscta,
+html body main #splash.sldItem20 .calltoaction .musicscta,
+html body main #splash.sldItem21 .calltoaction .musicscta,
+html body main #splash.sldItem22 .calltoaction .musicscta,
+html body main #splash.sldItem23 .calltoaction .musicscta,
+html body main #splash.sldItem24 .calltoaction .musicscta,
+html body main #splash.sldItem25 .calltoaction .musicscta,
+html body main #splash.sldItem26 .calltoaction .musicscta,
+html body main #splash.sldItem27 .calltoaction .musicscta {
+    display: block
+}
+
+html body main #splash.sldItem19 .calltoaction h1 #booksst,
+html body main #splash.sldItem28 .calltoaction h1 #booksst,
+html body main #splash.sldItem29 .calltoaction h1 #booksst,
+html body main #splash.sldItem30 .calltoaction h1 #booksst,
+html body main #splash.sldItem31 .calltoaction h1 #booksst,
+html body main #splash.sldItem32 .calltoaction h1 #booksst,
+html body main #splash.sldItem33 .calltoaction h1 #booksst,
+html body main #splash.sldItem34 .calltoaction h1 #booksst,
+html body main #splash.sldItem35 .calltoaction h1 #booksst,
+html body main #splash.sldItem36 .calltoaction h1 #booksst,
+html body main #splash.sldItem37 .calltoaction h1 #booksst,
+html body main #splash.sldItem38 .calltoaction h1 #booksst {
+    display: block
+}
+
+html body main #splash.sldItem19 .calltoaction .bookBtn,
+html body main #splash.sldItem28 .calltoaction .bookBtn,
+html body main #splash.sldItem29 .calltoaction .bookBtn,
+html body main #splash.sldItem30 .calltoaction .bookBtn,
+html body main #splash.sldItem31 .calltoaction .bookBtn,
+html body main #splash.sldItem32 .calltoaction .bookBtn,
+html body main #splash.sldItem33 .calltoaction .bookBtn,
+html body main #splash.sldItem34 .calltoaction .bookBtn,
+html body main #splash.sldItem35 .calltoaction .bookBtn,
+html body main #splash.sldItem36 .calltoaction .bookBtn,
+html body main #splash.sldItem37 .calltoaction .bookBtn,
+html body main #splash.sldItem38 .calltoaction .bookBtn {
+    display: inline-block
+}
+
+html body main #splash.sldItem19 .calltoaction .bookscta,
+html body main #splash.sldItem28 .calltoaction .bookscta,
+html body main #splash.sldItem29 .calltoaction .bookscta,
+html body main #splash.sldItem30 .calltoaction .bookscta,
+html body main #splash.sldItem31 .calltoaction .bookscta,
+html body main #splash.sldItem32 .calltoaction .bookscta,
+html body main #splash.sldItem33 .calltoaction .bookscta,
+html body main #splash.sldItem34 .calltoaction .bookscta,
+html body main #splash.sldItem35 .calltoaction .bookscta,
+html body main #splash.sldItem36 .calltoaction .bookscta,
+html body main #splash.sldItem37 .calltoaction .bookscta,
+html body main #splash.sldItem38 .calltoaction .bookscta {
+    display: block
+}
+
+html body main #splash.sldItem39 .calltoaction h1 #fitnessst,
+html body main #splash.sldItem40 .calltoaction h1 #fitnessst,
+html body main #splash.sldItem41 .calltoaction h1 #fitnessst,
+html body main #splash.sldItem42 .calltoaction h1 #fitnessst,
+html body main #splash.sldItem43 .calltoaction h1 #fitnessst,
+html body main #splash.sldItem44 .calltoaction h1 #fitnessst,
+html body main #splash.sldItem45 .calltoaction h1 #fitnessst,
+html body main #splash.sldItem46 .calltoaction h1 #fitnessst,
+html body main #splash.sldItem47 .calltoaction h1 #fitnessst,
+html body main #splash.sldItem48 .calltoaction h1 #fitnessst,
+html body main #splash.sldItem49 .calltoaction h1 #fitnessst,
+html body main #splash.sldItem50 .calltoaction h1 #fitnessst {
+    display: block
+}
+
+html body main #splash.sldItem39 .calltoaction .fitnessBtn,
+html body main #splash.sldItem40 .calltoaction .fitnessBtn,
+html body main #splash.sldItem41 .calltoaction .fitnessBtn,
+html body main #splash.sldItem42 .calltoaction .fitnessBtn,
+html body main #splash.sldItem43 .calltoaction .fitnessBtn,
+html body main #splash.sldItem44 .calltoaction .fitnessBtn,
+html body main #splash.sldItem45 .calltoaction .fitnessBtn,
+html body main #splash.sldItem46 .calltoaction .fitnessBtn,
+html body main #splash.sldItem47 .calltoaction .fitnessBtn,
+html body main #splash.sldItem48 .calltoaction .fitnessBtn,
+html body main #splash.sldItem49 .calltoaction .fitnessBtn,
+html body main #splash.sldItem50 .calltoaction .fitnessBtn {
+    display: inline-block
+}
+
+html body main #splash.sldItem39 .calltoaction .fitnesscta,
+html body main #splash.sldItem40 .calltoaction .fitnesscta,
+html body main #splash.sldItem41 .calltoaction .fitnesscta,
+html body main #splash.sldItem42 .calltoaction .fitnesscta,
+html body main #splash.sldItem43 .calltoaction .fitnesscta,
+html body main #splash.sldItem44 .calltoaction .fitnesscta,
+html body main #splash.sldItem45 .calltoaction .fitnesscta,
+html body main #splash.sldItem46 .calltoaction .fitnesscta,
+html body main #splash.sldItem47 .calltoaction .fitnesscta,
+html body main #splash.sldItem48 .calltoaction .fitnesscta,
+html body main #splash.sldItem49 .calltoaction .fitnesscta,
+html body main #splash.sldItem50 .calltoaction .fitnesscta {
+    display: block
+}
+
+html body main #splash .calltoaction {
+    margin-left: 5%;
+    padding-top: 155px;
+    z-index: 5
+}
+
+@media only screen and (max-width:500px) {
+    html body main #splash .calltoaction {
+        margin-left: 0;
+        padding: 420px 15px 0 15px;
+        text-align: center;
+        margin: auto
+    }
+}
+
+html body main #splash .calltoaction h1 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.45;
+    font-size: 48px
+}
+
+@media only screen and (max-width:768px) {
+    html body main #splash .calltoaction h1 {
+        font-size: 30px
+    }
+}
+
+html body main #splash .calltoaction h1 #generalst,
+html body main #splash .calltoaction h1 #moviesst,
+html body main #splash .calltoaction h1 #gamesst,
+html body main #splash .calltoaction h1 #booksst,
+html body main #splash .calltoaction h1 #musicsst,
+html body main #splash .calltoaction h1 #fitnessst {
+    display: none
+}
+
+html body main #splash .calltoaction h2 {
+    font-size: 24px;
+    color: #AAAAAA;
+    text-transform: uppercase;
+    letter-spacing: 1.85
+}
+
+html body main #splash .calltoaction h2 .generalcta,
+html body main #splash .calltoaction h2 .moviescta,
+html body main #splash .calltoaction h2 .gamescta,
+html body main #splash .calltoaction h2 .bookscta,
+html body main #splash .calltoaction h2 .musicscta,
+html body main #splash .calltoaction h2 .fitnesscta {
+    display: none
+}
+
+html body main #splash .calltoaction h2 span {
+    display: block
+}
+
+html body main #splash .calltoaction h2 span.subTitle {
+    font-size: 18px;
+    color: #FFF;
+    text-transform: initial;
+    padding: 20px 0;
+    max-width: 300px
+}
+
+@media only screen and (max-width:768px) {
+    html body main #splash .calltoaction h2 span.subTitle {
+        display: none
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body main #splash .calltoaction h2 span.subTitle {
+        margin: auto;
+        margin-top: 100px;
+        text-align: center;
+        display: block
+    }
+}
+
+html body main #splash .calltoaction h2 span.pricepoint {
+    color: #FFF;
+    text-transform: capitalize;
+    max-width: 450px;
+    font-size: 26px;
+    padding: 0 0 20px 0
+}
+
+@media only screen and (max-width:768px) {
+    html body main #splash .calltoaction h2 span.pricepoint {
+        padding: 20px 0 20px 0;
+        font-size: 20px
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body main #splash .calltoaction h2 span.pricepoint {
+        display: none
+    }
+}
+
+html body main #splash .calltoaction a {
+    text-decoration: none;
+    width: 252px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #00c1f3;
+    padding: 15px 5px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: .25s
+}
+
+@media only screen and (max-width:768px) {
+    html body main #splash .calltoaction a {
+        width: 220px
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body main #splash .calltoaction a {
+        width: 100%;
+        margin-bottom: 20px
+    }
+}
+
+html body main #splash .calltoaction a:hover {
+    background-color: #041a33
+}
+
+html body main #splash .calltoaction .gameBtn,
+html body main #splash .calltoaction .movieBtn,
+html body main #splash .calltoaction .musicBtn,
+html body main #splash .calltoaction .bookBtn,
+html body main #splash .calltoaction .fitnessBtn {
+    background-color: #484848;
+    display: none
+}
+
+html body main #splash .calltoaction .gameBtn:hover,
+html body main #splash .calltoaction .movieBtn:hover,
+html body main #splash .calltoaction .musicBtn:hover,
+html body main #splash .calltoaction .bookBtn:hover,
+html body main #splash .calltoaction .fitnessBtn:hover {
+    background-color: #585858
+}
+
+html body main #sectionSlider {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column: 1;
+    width: 100%;
+    max-width: 1350px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    z-index: 8;
+    height: fit-content
+}
+
+@media only screen and (max-width:500px) {
+    html body main #sectionSlider {
+        margin: unset
+    }
+}
+
+html body main #sectionSlider #sliderControl {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-image: linear-gradient(to right, #04071d, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #04071d);
+    margin: auto;
+    flex-flow: column;
+    z-index: 5;
+    pointer-events: none
+}
+
+html body main #sectionSlider #sliderControl #leftArrow {
+    width: 15px;
+    height: 30px;
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    background-image: url("/theme/Master/FrontPage/img/assets/left_arrow.png");
+    cursor: pointer;
+    pointer-events: all;
+    filter: sepia(100%) hue-rotate(150deg) saturate(500%)
+}
+
+@media only screen and (max-width:500px) {
+    html body main #sectionSlider #sliderControl #leftArrow {
+        top: 10%
+    }
+}
+
+html body main #sectionSlider #sliderControl #rightArrow {
+    width: 15px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    background-image: url("/theme/Master/FrontPage/img/assets/right_arrow.png");
+    cursor: pointer;
+    pointer-events: all;
+    filter: sepia(100%) hue-rotate(150deg) saturate(500%)
+}
+
+@media only screen and (max-width:500px) {
+    html body main #sectionSlider #sliderControl #rightArrow {
+        top: 10%
+    }
+}
+
+html body main #sectionSlider #containerSlider {
+    width: fit-content;
+    display: block
+}
+
+html body main #sectionSlider #containerSlider #slider {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    margin: auto;
+    left: 0;
+    right: 0
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem {
+    padding: 0 12px;
+    display: block;
+    transition: .25s
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem.landscape {
+    width: 332px;
+    height: 180px
+}
+
+@media only screen and (max-width:768px) {
+    html body main #sectionSlider #containerSlider #slider .containerItem.landscape {
+        width: 174px;
+        height: 90px
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body main #sectionSlider #containerSlider #slider .containerItem.landscape {
+        width: 97px;
+        height: 50px
+    }
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem.square {
+    width: 250px;
+    height: 225px
+}
+
+@media only screen and (max-width:768px) {
+    html body main #sectionSlider #containerSlider #slider .containerItem.square {
+        width: 150px;
+        height: 135px
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body main #sectionSlider #containerSlider #slider .containerItem.square {
+        width: 80px;
+        height: 65px
+    }
+}
+
+@media only screen and (max-width:768px) {
+    html body main #sectionSlider #containerSlider #slider .containerItem {
+        padding: 0 7px
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body main #sectionSlider #containerSlider #slider .containerItem {
+        padding: 0 7px
+    }
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem .slideItem {
+    border: 1px solid #333333;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    width: 100%
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem .slideItem p {
+    position: absolute;
+    font-size: 20px;
+    color: #FFFFFF;
+    bottom: 0;
+    left: 15px;
+    text-transform: uppercase;
+    margin-bottom: 5px
+}
+
+@media only screen and (max-width:768px) {
+    html body main #sectionSlider #containerSlider #slider .containerItem .slideItem p {
+        display: none
+    }
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem .slideItem p span {
+    font-size: 15px;
+    color: #6F6F6F;
+    text-transform: uppercase;
+    display: block
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem .slideItem a {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem01 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-a-star-is-born-01.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem02 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-at-war-with-the-army-02.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem03 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-call-of-the-wild-01.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem04 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-evil-dead-2-03.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem05 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-fetching-cody-02.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem06 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-fists-of-fury-02.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem07 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-jack-frost-02.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem08 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-little-spirit-02.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem09 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-the-evil-dead-02.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem10 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-bejeweled-2.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem11 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-commandos-3-01.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem12 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-governor-of-poker.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem13 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-hitman-blood-money-01.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem14 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-neverwinter-nights01.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem15 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-tomb-raider-anniversary-01.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem16 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-plants-vs-zombies.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem17 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-syberia-2-01.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem18 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music-generic-image.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem19 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-generic-image.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem20 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_almost_september.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem21 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_arrows_and_bullets.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem22 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_jessica_rae.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem23 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_liquid_stranger.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem24 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_metropolis_america.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem25 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_okay_hello.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem26 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_quiet_company.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem27 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_slang.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem28 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-bitcoin-works-under-the-hood.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem29 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-dynamic-six-pack-abs.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem30 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-eat-yourself-thin.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem31 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-joint-pain-relief.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem32 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-lessons-you-can-learn-from-fitness-classes.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem33 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-lower-your-cholesterol-in-33-days.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem34 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-Pro_Social_Media_Marketing_Completed.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem35 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-Skin-Care-For-Today-And-Beyond.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem36 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-Social-Marketing-Advantage.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem37 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-the-new-health-and-wellness-shift.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem38 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-ultimate-internet-marketing-starter-guide.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem39 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-01.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem40 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-02.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem41 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-03.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem42 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-04.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem43 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-05.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem44 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-06.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem45 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-07.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem46 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-08.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem47 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-09.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem48 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-10.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem49 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-11.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem #sldItem50 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-12.jpg")
+}
+
+html body main #sectionSlider #containerSlider #slider .containerItem:nth-of-type(10) .slideItem {
+    border: 1px solid #FFF
+}
+
+html body main #features #featuresectiontitle {
+    top: 55px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    display: none;
+    transition: .25ms;
+    z-index: 12;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+@media only screen and (max-width:768px) {
+    html body main #features #featuresectiontitle {
+        top: 100px
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body main #features #featuresectiontitle {
+        min-width: 300px;
+        height: 65px
+    }
+}
+
+html body main #features #featuresectiontitle .scrollMenu {
+    display: -ms-grid;
+    display: grid;
+    height: 100%;
+    grid-template-areas: 'gift text access'
+}
+
+@media only screen and (max-width:768px) {
+    html body main #features #featuresectiontitle .scrollMenu {
+        grid-template-areas: 'gift access'
+    }
+}
+
+html body main #features #featuresectiontitle .scrollMenu div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 252px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 5px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 15px 0 15px;
+    transition: .25s
+}
+
+@media only screen and (max-width:500px) {
+    html body main #features #featuresectiontitle .scrollMenu div a {
+        width: 90%;
+        margin-top: 5px
+    }
+}
+
+html body main #features #featuresectiontitle .scrollMenu div:first-child {
+    text-align: left
+}
+
+html body main #features #featuresectiontitle .scrollMenu div:first-child a {
+    background-color: #484848
+}
+
+html body main #features #featuresectiontitle .scrollMenu div:first-child a:hover {
+    background-color: #585858
+}
+
+html body main #features #featuresectiontitle .scrollMenu div:nth-of-type(2) {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 15px
+}
+
+@media only screen and (max-width:768px) {
+    html body main #features #featuresectiontitle .scrollMenu div:nth-of-type(2) {
+        display: none
+    }
+}
+
+html body main #features #featuresectiontitle .scrollMenu div:nth-of-type(2) span {
+    display: block;
+    color: #BBBBBB;
+    text-transform: initial
+}
+
+html body main #features #featuresectiontitle .scrollMenu div:last-child {
+    text-align: right
+}
+
+html body main #features #featuresectiontitle .scrollMenu div:last-child a {
+    background-color: #00c1f3
+}
+
+html body main #features #featuresectiontitle .scrollMenu div:last-child a:hover {
+    background-color: #041a33
+}
+
+html body main #messages {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column: 1;
+    margin: auto;
+    max-width: 1050px;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 100%
+}
+
+@media only screen and (min-width:1100px) {
+    html body main #messages {
+        grid-template-columns: auto auto
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body main #messages {
+        grid-row-start: 4;
+        grid-row-end: 5
+    }
+}
+
+html body main #messages #messagesectiontitle {
+    font-size: 26px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 70px 0
+}
+
+@media only screen and (min-width:1100px) {
+    html body main #messages #messagesectiontitle {
+        grid-column-start: 1;
+        grid-column-end: 3
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body main #messages #messagesectiontitle {
+        padding: 20px 0
+    }
+}
+
+html body main #messages .message {
+    width: 300px;
+    height: 180px;
+    margin: auto;
+    border: 1px solid #717171;
+    color: #FFFFFF;
+    position: relative
+}
+
+@media only screen and (min-width:360px) {
+    html body main #messages .message {
+        width: 350px;
+        height: 210px
+    }
+}
+
+@media only screen and (min-width:550px) {
+    html body main #messages .message {
+        width: 505px;
+        height: 290px
+    }
+}
+
+@media only screen and (min-width:1100px) {
+    html body main #messages .message:nth-child(2) {
+        width: 100%;
+        height: 380px;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column-start: 1;
+        grid-column-end: 3
+    }
+}
+
+html body main #messages .message.square {
+    width: 300px;
+    height: 300px
+}
+
+@media only screen and (min-width:1100px) {
+    html body main #messages .message.square:nth-child(2) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column-start: 1;
+        grid-column-end: 2
+    }
+}
+
+@media only screen and (min-width:360px) {
+    html body main #messages .message.square {
+        width: 350px;
+        height: 350px
+    }
+}
+
+@media only screen and (min-width:550px) {
+    html body main #messages .message.square {
+        width: 505px;
+        height: 505px
+    }
+}
+
+html body main #messages .message div {
+    height: 100%;
+    width: 100%;
+    background-size: cover
+}
+
+html body main #messages .message #msg01 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-a-star-is-born-01.jpg")
+}
+
+html body main #messages .message #msg02 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-at-war-with-the-army-02.jpg")
+}
+
+html body main #messages .message #msg03 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-call-of-the-wild-01.jpg")
+}
+
+html body main #messages .message #msg04 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-evil-dead-2-03.jpg")
+}
+
+html body main #messages .message #msg05 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-fetching-cody-02.jpg")
+}
+
+html body main #messages .message #msg06 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-fists-of-fury-02.jpg")
+}
+
+html body main #messages .message #msg07 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-jack-frost-02.jpg")
+}
+
+html body main #messages .message #msg08 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-little-spirit-02.jpg")
+}
+
+html body main #messages .message #msg09 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/movie-the-evil-dead-02.jpg")
+}
+
+html body main #messages .message #msg10 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-bejeweled-2.jpg")
+}
+
+html body main #messages .message #msg11 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-commandos-3-01.jpg")
+}
+
+html body main #messages .message #msg12 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-governor-of-poker.jpg")
+}
+
+html body main #messages .message #msg13 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-hitman-blood-money-01.jpg")
+}
+
+html body main #messages .message #msg14 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-neverwinter-nights01.jpg")
+}
+
+html body main #messages .message #msg15 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-tomb-raider-anniversary-01.jpg")
+}
+
+html body main #messages .message #msg16 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-plants-vs-zombies.jpg")
+}
+
+html body main #messages .message #msg17 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/game-syberia-2-01.jpg")
+}
+
+html body main #messages .message #msg18 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music-generic-image.jpg")
+}
+
+html body main #messages .message #msg19 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-generic-image.jpg")
+}
+
+html body main #messages .message #msg20 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_almost_september.jpg")
+}
+
+html body main #messages .message #msg21 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_arrows_and_bullets.jpg")
+}
+
+html body main #messages .message #msg22 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_jessica_rae.jpg")
+}
+
+html body main #messages .message #msg23 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_liquid_stranger.jpg")
+}
+
+html body main #messages .message #msg24 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_metropolis_america.jpg")
+}
+
+html body main #messages .message #msg25 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_okay_hello.jpg")
+}
+
+html body main #messages .message #msg26 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_quiet_company.jpg")
+}
+
+html body main #messages .message #msg27 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/music_slang.jpg")
+}
+
+html body main #messages .message #msg28 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-bitcoin-works-under-the-hood.jpg")
+}
+
+html body main #messages .message #msg29 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-dynamic-six-pack-abs.jpg")
+}
+
+html body main #messages .message #msg30 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-eat-yourself-thin.jpg")
+}
+
+html body main #messages .message #msg31 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-joint-pain-relief.jpg")
+}
+
+html body main #messages .message #msg32 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-lessons-you-can-learn-from-fitness-classes.jpg")
+}
+
+html body main #messages .message #msg33 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-lower-your-cholesterol-in-33-days.jpg")
+}
+
+html body main #messages .message #msg34 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-Pro_Social_Media_Marketing_Completed.jpg")
+}
+
+html body main #messages .message #msg35 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-Skin-Care-For-Today-And-Beyond.jpg")
+}
+
+html body main #messages .message #msg36 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-Social-Marketing-Advantage.jpg")
+}
+
+html body main #messages .message #msg37 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-the-new-health-and-wellness-shift.jpg")
+}
+
+html body main #messages .message #msg38 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/book-ultimate-internet-marketing-starter-guide.jpg")
+}
+
+html body main #messages .message #msg39 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-01.jpg")
+}
+
+html body main #messages .message #msg40 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-02.jpg")
+}
+
+html body main #messages .message #msg41 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-03.jpg")
+}
+
+html body main #messages .message #msg42 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-04.jpg")
+}
+
+html body main #messages .message #msg43 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-05.jpg")
+}
+
+html body main #messages .message #msg44 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-06.jpg")
+}
+
+html body main #messages .message #msg45 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-07.jpg")
+}
+
+html body main #messages .message #msg46 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-08.jpg")
+}
+
+html body main #messages .message #msg47 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-09.jpg")
+}
+
+html body main #messages .message #msg48 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-10.jpg")
+}
+
+html body main #messages .message #msg49 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-11.jpg")
+}
+
+html body main #messages .message #msg50 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #000), url("/theme/Master/FrontPage/img/contentimages/fitness-background-12.jpg")
+}
+
+html body main #messages .message h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 26px;
+    text-transform: uppercase
+}
+
+html body main #messages .message p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0
+}
+
+html body main #messages .message p a {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+html body main #pricetables {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column: 1;
+    margin-top: 50px;
+    height: 350px;
+    width: 100%;
+    background: url("/theme/Master/FrontPage/img/bg/min/mc-pricetable.jpg");
+    display: block;
+    border-top: 1px solid #302b2f;
+    border-bottom: 1px solid #302b2f;
+    background-position: center;
+    background-size: cover
+}
+
+html body main #pricetables #pricesectiontitle {
+    font-size: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 400px;
+    line-height: 3;
+    margin: auto;
+    margin-top: 45px
+}
+
+@media only screen and (max-width:550px) {
+    html body main #pricetables #pricesectiontitle {
+        margin-top: 60px;
+        font-size: 20px;
+        max-width: 270px
+    }
+}
+
+html body main .subpage {
+    grid-row-start: 1;
+    grid-row-end: 5
+}
+
+html body footer {
+    margin-top: 100px;
+    padding: 0 30px
+}
+
+@media only screen and (min-width:768px) {
+    html body footer {
+        margin-bottom: 50px
+    }
+}
+
+html body footer #footerwrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-row-gap: 30px;
+    grid-template-areas: 'ftlogo fm01 fm02 fm03' 'address address address address';
+    max-width: 1050px;
+    margin: auto
+}
+
+@media only screen and (max-width:880px) {
+    html body footer #footerwrapper {
+        grid-template-columns: 40% 60%;
+        grid-template-areas: 'ftlogo fm03' 'fm01 fm02' 'address address'
+    }
+}
+
+@media only screen and (max-width:500px) {
+    html body footer #footerwrapper {
+        grid-template-columns: 60% 40%;
+        grid-template-areas: 'ftlogo ftlogo' 'fm03 fm03' 'fm01 fm02' 'address address'
+    }
+}
+
+html body footer #footerwrapper .companyinfo {
+    grid-area: address;
+    color: #6F6F6F;
+    font-size: 14px
+}
+
+@media only screen and (min-width:880px) {
+    html body footer #footerwrapper .companyinfo {
+        margin-top: 70px
+    }
+}
+
+html body footer #footerwrapper .companyinfo #corpInfo {
+    display: block
+}
+
+@media only screen and (max-width:768px) {
+    html body footer #footerwrapper .companyinfo #corpInfo {
+        display: none
+    }
+}
+
+html body footer #footerwrapper .companyinfo #corpInfoMobile {
+    display: none
+}
+
+@media only screen and (max-width:768px) {
+    html body footer #footerwrapper .companyinfo #corpInfoMobile {
+        display: block
+    }
+}
+
+html body footer #footerwrapper .footermenu.fm01 {
+    grid-area: fm01
+}
+
+html body footer #footerwrapper .footermenu.fm02 {
+    grid-area: fm02
+}
+
+html body footer #footerwrapper .footermenu.fm03 {
+    grid-area: fm03
+}
+
+html body footer #footerwrapper .footermenu.fm03 form {
+    display: flex;
+    margin-top: 10px
+}
+
+html body footer #footerwrapper .footermenu.fm03 form #subscriptionsEmailCapture {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    border-right: none;
+    background-color: #04071d;
+    color: #6F6F6F;
+    height: 40px;
+    padding-left: 5px
+}
+
+html body footer #footerwrapper .footermenu.fm03 form #btnLoadEmail {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-left: 0;
+    background-color: #04071d;
+    color: #FFF;
+    height: 40px;
+    font-size: 25px;
+    font-family: monospace;
+    line-height: 1
+}
+
+html body footer #footerwrapper .footermenu h2 {
+    font-size: 12px;
+    color: #596170
+}
+
+html body footer #footerwrapper .footermenu ul li {
+    display: block;
+    font-size: 15px;
+    margin-left: 0
+}
+
+html body footer #footerwrapper .footermenu ul li a {
+    text-decoration: none;
+    color: #949aa4
+}
+
+html body footer #footerwrapper .footermenu span {
+    font-size: 12px;
+    color: #949aa4;
+    max-width: 300px;
+    display: block
+}
+
+html body footer #footerwrapper .footermenu span a {
+    text-decoration: underline;
+    color: #949aa4
+}
+
+html body footer #footerwrapper .footermenu a img {
+    cursor: text
+}
+
+html body footer #footerwrapper #footerlogo {
+    grid-area: ftlogo;
+    position: relative
+}
+
+html body footer #footerwrapper #footerlogo img {
+    width: 150px
+}
+
+@media only screen and (min-width:800px) {
+    html body footer #footerwrapper #footerlogo img {
+        margin-top: 15%
+    }
+}
+
+html body footer #footerwrapper span {
+    grid-area: subscribe
+}
+
+html body #login-modal,
+html body #ppvFP {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    padding-top: 120px
+}
+
+html body #login-modal .modal-content .modal-header,
+html body #ppvFP .modal-content .modal-header,
+html body #login-modal .modal-content .modal-footer,
+html body #ppvFP .modal-content .modal-footer {
+    text-transform: uppercase;
+    background-color: #33333D
+}
+
+html body #login-modal .modal-content .modal-body form .form-group:nth-of-type(3),
+html body #ppvFP .modal-content .modal-body form .form-group:nth-of-type(3),
+html body #login-modal .modal-content .modal-body form .form-group:nth-of-type(4),
+html body #ppvFP .modal-content .modal-body form .form-group:nth-of-type(4) {
+    text-align: center
+}
+
+html body #login-modal .modal-content .modal-body form .form-group input,
+html body #ppvFP .modal-content .modal-body form .form-group input {
+    font-family: Lato, Helvetica, Arial, sans-serif
+}
+
+html body #login-modal .modal-content .modal-body form .form-group button,
+html body #ppvFP .modal-content .modal-body form .form-group button {
+    width: 220px;
+    text-align: center;
+    color: #FFF;
+    background-color: #00c1f3;
+    padding: 15px 5px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: auto;
+    transition: .25s;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    text-transform: uppercase
+}
+
+html body #login-modal .modal-content .modal-body form .form-group button:hover,
+html body #ppvFP .modal-content .modal-body form .form-group button:hover {
+    background-color: #041a33
+}
+
+html body #login-modal .modal-content .modal-body form h2,
+html body #ppvFP .modal-content .modal-body form h2 {
+    font-size: 18px;
+    text-transform: uppercase
+}
+
+html body.vertical main {
+    grid-template-rows: 580px auto auto auto
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main {
+        grid-template-rows: 350px auto auto auto
+    }
+}
+
+html body.vertical main #splash {
+    grid-row-end: 2;
+    height: unset;
+    margin-top: 0;
+    grid-template-rows: 540px auto auto auto;
+    background-position: initial
+}
+
+@media only screen and (max-width:500px) {
+    html body.vertical main #splash {
+        height: auto;
+        min-height: unset;
+        grid-row-end: 3
+    }
+}
+
+html body.vertical main #splash .calltoaction {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 395px
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main #splash .calltoaction {
+        padding-top: 0;
+        margin-top: 230px
+    }
+}
+
+html body.vertical main #splash .calltoaction h1 {
+    font-size: 55px
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main #splash .calltoaction h1 {
+        font-size: 30px
+    }
+}
+
+html body.vertical main #splash .calltoaction h2 {
+    font-size: 40px
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main #splash .calltoaction h2 {
+        font-size: 23px
+    }
+}
+
+html body.vertical main #splash .calltoaction a {
+    display: none
+}
+
+html body.vertical main #features {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column: 1;
+    display: grid;
+    grid-template-areas: 'text01 text02 buttons' 'text03 text03 text03';
+    grid-row-gap: 50px;
+    color: #FFF;
+    max-width: 1100px;
+    margin: auto
+}
+
+@media only screen and (max-width:1000px) {
+    html body.vertical main #features {
+        grid-template-areas: 'buttons' 'text01' 'text02' 'text03'
+    }
+}
+
+html body.vertical main #features .feature {
+    position: relative;
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: #6E6E6E
+}
+
+html body.vertical main #features .feature h2 {
+    margin-top: 65px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #FFF
+}
+
+html body.vertical main #features .feature.text01 {
+    grid-area: text01;
+    border-right: 1px solid #333333
+}
+
+@media only screen and (max-width:1000px) {
+    html body.vertical main #features .feature.text01 {
+        border-right: none
+    }
+}
+
+html body.vertical main #features .feature.text02 {
+    grid-area: text02;
+    border-right: 1px solid #333333
+}
+
+@media only screen and (max-width:1000px) {
+    html body.vertical main #features .feature.text02 {
+        border-right: none
+    }
+}
+
+html body.vertical main #features .feature.text03 {
+    grid-area: text03;
+    background-color: #FFFFFF;
+    text-align: left;
+    color: #333333;
+    position: relative;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: 'title image' 'text image';
+    padding: 0;
+    border: 1px solid #000
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main #features .feature.text03 {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto 280px;
+        grid-template-areas: 'title' 'text' 'image'
+    }
+}
+
+html body.vertical main #features .feature.text03 h2 {
+    grid-area: title;
+    margin-top: 0;
+    padding: 50px 50px 20px 50px;
+    text-transform: initial;
+    font-size: 48px;
+    font-weight: 200;
+    color: #555555
+}
+
+html body.vertical main #features .feature.text03 p {
+    grid-area: text;
+    padding: 0 50px 50px 50px;
+    color: #AAAAAA
+}
+
+html body.vertical main #features .feature.text03 #extra_text03 {
+    grid-area: image;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom
+}
+
+html body.vertical main #features .feature.buttons {
+    grid-area: buttons
+}
+
+html body.vertical main #features .feature.buttons h2 {
+    text-transform: initial;
+    font-size: 20px;
+    margin-top: 0
+}
+
+html body.vertical main #features .feature.buttons a {
+    text-decoration: none;
+    text-transform: uppercase;
+    max-width: 400px;
+    background-color: #00c1f3;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 5px;
+    display: block;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 10px;
+    transition: .25s
+}
+
+html body.vertical main #features .feature.buttons a:hover {
+    background-color: #041a33
+}
+
+html body.vertical main #features .feature.buttons span {
+    font-weight: bold;
+    text-transform: capitalize;
+    display: block
+}
+
+html body.vertical main #features .feature.buttons #divider {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border-top: 1px solid #333333;
+    line-height: .03em;
+    margin: 10px auto 20px
+}
+
+html body.vertical main #features .feature.buttons #divider span {
+    background-color: #04071d;
+    padding: 0 10px;
+    margin: auto;
+    display: initial
+}
+
+html body.vertical main #features .feature.buttons #alterButtons {
+    max-width: 400px;
+    width: 100%;
+    margin: auto
+}
+
+html body.vertical main #features .feature.buttons #alterButtons a {
+    display: inline-block;
+    width: 40%;
+    background-color: #04071d;
+    color: #FFF;
+    border: 1px solid #333333
+}
+
+html body.vertical main #features .feature.buttons #alterButtons a:hover {
+    background-color: #222222;
+    color: #FFFFFF
+}
+
+html body.vertical main #features .feature.buttons #alterButtons a:first-child {
+    width: 55%;
+    margin-right: 5%;
+    color: #FFFFFF;
+    background-color: #484848
+}
+
+html body.vertical main #features .feature.buttons #alterButtons a:first-child:hover {
+    background-color: #585858
+}
+
+html body.vertical main #features .feature.buttons #alterButtons p {
+    width: 55%;
+    text-align: center
+}
+
+html body.vertical main #features .feature.buttons #alterButtons #payg {
+    width: 55%;
+    font-weight: normal
+}
+
+html body.vertical main #features .feature i {
+    position: absolute;
+    top: 5px;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    left: 0
+}
+
+html body.vertical main.games #splash {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-bejeweled-2.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.games #splash {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-bejeweled-2.jpg")
+    }
+}
+
+html body.vertical main.games #splash.pres1 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-bejeweled-2.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.games #splash.pres1 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-bejeweled-2.jpg")
+    }
+}
+
+html body.vertical main.games #splash.pres2 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-commandos-3-01.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.games #splash.pres2 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-commandos-3-01.jpg")
+    }
+}
+
+html body.vertical main.games #splash.pres3 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-governor-of-poker.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.games #splash.pres3 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-governor-of-poker.jpg")
+    }
+}
+
+html body.vertical main.games #splash.pres4 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-hitman-blood-money-01.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.games #splash.pres4 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-hitman-blood-money-01.jpg")
+    }
+}
+
+html body.vertical main.games #splash.pres5 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-neverwinter-nights01.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.games #splash.pres5 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-neverwinter-nights01.jpg")
+    }
+}
+
+html body.vertical main.games #splash.pres6 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-tomb-raider-anniversary-01.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.games #splash.pres6 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-tomb-raider-anniversary-01.jpg")
+    }
+}
+
+html body.vertical main.games #splash.pres7 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-plants-vs-zombies.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.games #splash.pres7 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-plants-vs-zombies.jpg")
+    }
+}
+
+html body.vertical main.games #splash.pres8 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-syberia-2-01.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.games #splash.pres8 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/game-syberia-2-01.jpg")
+    }
+}
+
+html body.vertical main.games #features .feature.text03 #extra_text03 {
+    background-image: url("/theme/Master/FrontPage/img/contentimages/games-vertical-image.png")
+}
+
+html body.vertical main.movies #splash {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-a-star-is-born-01.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.movies #splash {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-a-star-is-born-01.jpg")
+    }
+}
+
+html body.vertical main.movies #splash.pres1 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-a-star-is-born-01.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.movies #splash.pres1 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-a-star-is-born-01.jpg")
+    }
+}
+
+html body.vertical main.movies #splash.pres2 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-at-war-with-the-army-02.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.movies #splash.pres2 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-at-war-with-the-army-02.jpg")
+    }
+}
+
+html body.vertical main.movies #splash.pres3 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-call-of-the-wild-01.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.movies #splash.pres3 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-call-of-the-wild-01.jpg")
+    }
+}
+
+html body.vertical main.movies #splash.pres4 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-evil-dead-2-03.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.movies #splash.pres4 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-evil-dead-2-03.jpg")
+    }
+}
+
+html body.vertical main.movies #splash.pres5 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-fetching-cody-02.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.movies #splash.pres5 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-fetching-cody-02.jpg")
+    }
+}
+
+html body.vertical main.movies #splash.pres6 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-fists-of-fury-02.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.movies #splash.pres6 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-fists-of-fury-02.jpg")
+    }
+}
+
+html body.vertical main.movies #splash.pres7 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-jack-frost-02.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.movies #splash.pres7 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-jack-frost-02.jpg")
+    }
+}
+
+html body.vertical main.movies #splash.pres8 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-little-spirit-02.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.movies #splash.pres8 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-little-spirit-02.jpg")
+    }
+}
+
+html body.vertical main.movies #splash.pres9 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-the-evil-dead-02.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.movies #splash.pres9 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/movie-the-evil-dead-02.jpg")
+    }
+}
+
+html body.vertical main.movies #features .feature.text03 #extra_text03 {
+    background-image: url("/theme/Master/FrontPage/img/contentimages/movies-vertical-image.jpg")
+}
+
+html body.vertical main.books #splash {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-generic-image.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.books #splash {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/book-generic-image.jpg")
+    }
+}
+
+html body.vertical main.books #features .feature.text03 #extra_text03 {
+    background-image: url("/theme/Master/FrontPage/img/contentimages/books-vertical-image.jpg")
+}
+
+html body.vertical main.music #splash {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music-generic-image.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.music #splash {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/music-generic-image.jpg")
+    }
+}
+
+html body.vertical main.music #features .feature.text03 #extra_text03 {
+    background-image: url("/theme/Master/FrontPage/img/contentimages/music-vertical-image.jpg")
+}
+
+html body.vertical main.fitness #splash {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-01.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-01.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres1 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-01.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres1 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-01.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres2 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-02.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres2 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-02.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres3 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-03.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres3 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-03.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres4 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-04.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres4 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-04.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres5 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-05.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres5 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-05.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres6 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-06.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres6 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-06.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres7 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-07.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres7 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-07.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres8 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-08.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres8 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-08.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres9 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-09.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres9 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-09.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres10 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-10.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres10 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-10.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres11 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-11.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres11 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-11.jpg")
+    }
+}
+
+html body.vertical main.fitness #splash.pres12 {
+    background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-12.jpg")
+}
+
+@media only screen and (max-width:768px) {
+    html body.vertical main.fitness #splash.pres12 {
+        background-image: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6), #04071d, #04071d), url("/theme/Master/FrontPage/img/contentimages/fitness-background-12.jpg")
+    }
+}
+
+html body.vertical main.fitness #features .feature.text03 #extra_text03 {
+    background-image: url("/theme/Master/FrontPage/img/contentimages/fitness-vertical-image.jpg")
+}
+
+html body.index header #header-wrapper #newPricePointNotice {
+    color: #FFFFFF
+}
+
+html body header #header-wrapper #newPricePointNotice {
+    color: #00c1f3
+}
+
+@media only screen and (max-width:768px) {
+    html body main .subpage {
+        padding-top: 170px
+    }
+}
